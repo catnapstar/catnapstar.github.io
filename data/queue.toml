@@ -1,0 +1,13 @@
+open = false
+slotcount = 4
+
+# progress
+# -1 cancel
+# 0 wait
+# 1 progress
+# 2 done
+
+# example:
+# [[ queue ]]
+# name = "Empty"
+# progress = 0 

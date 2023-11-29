@@ -1,0 +1,43 @@
+.plul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.plli {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.plli:before {
+  content: "+";
+  padding-right: 5px;
+}
+
+.cgallery {
+    display:grid;
+    grid-template-rows: 30px 1fr;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ctitle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--tertiary);
+    margin-right: 5px;
+}
+
+.ctitle > * {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctitle > b {
+    color: var(--secondary);
+}
+
+.gallery-wrapper {
+    margin: 10px;
+}

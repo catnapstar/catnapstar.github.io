@@ -1,0 +1,32 @@
+<ol>
+    {{ $q := $.Site.Data.queue }}
+    {{ $free_slots := $q.slotcount }}
+
+    {{ with $q.queue }}
+        {{ $total := ($q.queue | len) }}
+        {{ $free_slots = sub $free_slots $total }}
+
+        {{ range $q.queue }}
+        {{if eq .progress -1}} <li>❌ {{ .name }} </li> {{ end }}
+        {{if eq .progress 0}} <li>⏱️️ {{ .name }} </li> {{ end }}
+        {{if eq .progress 1}} <li>🚧 {{ .name }} </li> {{ end }}
+        {{if eq .progress 2}} <li>✅ {{ .name }} </li> {{ end }}
+        {{ end }}
+    {{ end }}
+
+    {{ if gt $free_slots 0 }}
+    {{ range seq $free_slots }}
+    <li> </li>
+    {{ end }}
+    {{ end }}
+</ol>
+
+<!--details>
+<summary>Key</summary>
+<ul>
+    <li>✅ = Done</li> 
+    <li>🚧 = In Progress</li> 
+    <li>⏱️️ = Waiting</li>
+    <li>❌ = Cancelled</li>
+</ul>
+</details-->

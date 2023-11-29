@@ -1,0 +1,12 @@
+.dark {
+    --theme: rgb(21, 31, 53);
+    --tertiary: rgb(63, 79, 113);
+    --gap: 20px;
+    --content-gap: 00px;
+    --main-width: 55%;
+}
+
+.profile img {
+    border-radius: 5px;
+    border: solid 2px var(--secondary);
+}

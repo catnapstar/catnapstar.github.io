@@ -1,0 +1,36 @@
+.biglink {
+    cursor:pointer;
+    display: inline-block;
+    margin: 2px;
+    text-align:center;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.25s;
+    box-shadow: 0 0px;
+}
+
+.biglink:hover a {
+    bottom: 3px;
+}
+
+#twitter {
+    color: #FFFFFF;
+    background-color:#1da1f2;
+}
+#itaku {
+    color: #000000;
+    background-color:#ffdd00;
+}
+#bluesky {
+    color: #FFFFFF;
+    background-color:#0c48a8;
+}
+#furaffinity {
+    color: #FFFFFF;
+    background-color:#F45800;
+}
+#mega {
+    color: #FFFFFF;
+    background-color:#D51007;
+}
+
