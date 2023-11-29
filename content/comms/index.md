@@ -1,6 +1,6 @@
 ---
 menu: main
-title: Commissions 🗒️
+title: Comms 🗒️
 ---
 # 💰 Prices (WIP)
 {{< commgallery match="sketch/" ctitle="Sketch" cprice=30  loadJQuery=true >}}
