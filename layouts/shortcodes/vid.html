@@ -1,0 +1,11 @@
+{{ $videos := (.Page.Resources.ByType "video") }}
+{{ if .Get "match"}}
+        {{ $matchpath := add (.Get "match") "*"}}
+	{{ $videos = (.Page.Resources.Match $matchpath) }}
+{{ end }}
+
+{{ range $videos}}
+    <video autoplay loop muted preload="auto">
+        <source src="{{ . }}" type="video/webm">
+    </video>
+{{ end }}

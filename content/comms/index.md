@@ -2,20 +2,26 @@
 menu: main
 title: Comms 🗒️
 ---
-# 💰 Prices (WIP)
-{{< commgallery match="sketch/" ctitle="Sketch" cprice=30  loadJQuery=true >}}
-{{< commgallery match="sketchanim/" ctitle="Sketch Animation" cprice=40  loadJQuery=true >}}
-{{< commgallery match="rough/" ctitle="Rough Color" cprice=50  loadJQuery=true >}}
-{{< commgallery match="full/" ctitle="Full Color" cprice=70  loadJQuery=true >}}
-{{< commgallery match="fullanim/" ctitle="Full Color Animation" cprice=120  loadJQuery=true >}}
 
-**\+ $10** - Per Extra Character (Max: 3)
+{{< vid match="sheet/" >}}
 
-**\+ $10** - Character Design
+---
 
-**\+ $25** - Detailed Background [Animation]
+# 💰 Prices
 
-**\+ $(1/2 Base Price)** - Per Extra Shot (Max: 3) [Animation]
+| Base                  | Price     | Notes
+|-----------------------|-----------|----------|
+| **Sketch**            | $35       | Uncolored drawing. Lines are sketchy but readable.
+| **Sketch (Anim)**     | $60       | Uncolored animation. Animated on 2-3's @ 24fps. 
+| **Full**              | $70       | Fully colored drawing. Lines are cleaned up, detailed rendering is applied.
+| **Full (Anim)**       | $120      | Fully colored animation. Lines are cleaned up, and minor post processing effects are applied.
+
+| Extra                     | Price             | Notes     |
+|---------------------------|-------------------|-----------|
+| **Detailed Background**   | $35               | By default, backgrounds will be an abstract solid color that fits the mood.
+| **Per. Extra Anim Scene** | Base Price / 2    | A "scene" is a different camera angle / loop. By default, animations only include a single scene.
+
+*Note: These prices are rough estimates. Depending on the complexity of the piece, I may increase or decrease the price.*
 
 ---
 
@@ -30,7 +36,9 @@ However, under any circumstances, I will not allow drawings of:
 
 # Payment Process & Refunds
 
-Payments are handled up-front via PayPal. After you join the queue, we'll discuss your idea and agree on a fair price for it. Afterwards I'll send you an invoice. I won't start working on your piece until the payment is made. You can request a refund for your commission at any point during the process. The total refund amount depends on how much work I've put in so far. For example:
+Payments are handled up-front via PayPal. Before I start working on your commission, we'll discuss your idea and agree on a fair price for it. Afterwards I'll send you an invoice. I won't start working on your piece until the payment is made. You can request a refund for your commission at any point during the process. The total refund amount depends on how much work I've put in so far. For example:
 - Before the commission is started, you will get a full refund.
 - If the commission is halfway done, you will get a 50% refund.
 - Completed commissions are not refundable.
+
+Once I've finished your commission, it's yours to keep and do whatever you want with!
