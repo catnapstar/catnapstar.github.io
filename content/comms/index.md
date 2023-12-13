@@ -9,14 +9,18 @@ title: Comms 🗒️
 
 # 💰 Prices
 
-| Base                  | Price     | Notes
+### Base
+
+| Name                  | Price     | Notes
 |-----------------------|-----------|----------|
 | **Sketch**            | $30       | Uncolored drawing. Lines are sketchy but readable.
 | **Sketch (Anim)**     | $60       | Uncolored animation. Animated on 2-3's @ 24fps. 
 | **Full**              | $60       | Fully colored drawing. Lines are cleaned up, detailed rendering is applied.
 | **Full (Anim)**       | $120      | Fully colored animation. Lines are cleaned up, and minor post processing effects are applied.
 
-| Extra                       | Price             | Notes     |
+### Extra Costs
+
+| Name                        | Price             | Notes     |
 |-----------------------------|-------------------|-----------|
 | **Detailed Background**     | $15               | Add detailed objects and scenery to the background. Otherwise, backgrounds are simple solid colors and shapes.
 | **Rough Colors** [Sketch]   | $15               | Add quick, messy colors to a sketch. Otherwise, sketches are uncolored, lines only.
