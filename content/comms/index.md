@@ -18,9 +18,9 @@ title: Comms 🗒️
 
 | Extra                       | Price             | Notes     |
 |-----------------------------|-------------------|-----------|
-| **Detailed Background**     | $15               | Add detailed objects / scenery to the background of a piece. By default, backgrounds are simple solid colors and shapes.
-| **Rough Colors** [Sketch]   | $15               | Add quick, messy colors to a sketched still/animation piece. By default, sketches are uncolored, lines only.
-| **Per. Extra Scene** [Anim] | Base Price / 2    | Each "scene" is a different camera angle / loop. By default, animations only include a single scene.
+| **Detailed Background**     | $15               | Add detailed objects and scenery to the background. Otherwise, backgrounds are simple solid colors and shapes.
+| **Rough Colors** [Sketch]   | $15               | Add quick, messy colors to a sketch. Otherwise, sketches are uncolored, lines only.
+| **Per. Extra Scene** [Anim] | Base Price / 2    | Add additional camera angles or loops to an animation (max: 3).
 
 *Note: These prices are rough estimates. Depending on the complexity of the piece, I may increase or decrease the price.*
 
