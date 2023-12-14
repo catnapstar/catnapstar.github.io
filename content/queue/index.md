@@ -2,7 +2,11 @@
 menu: main
 title: Queue ⏰
 ---
-### Status:
+
+### Status
+
 {{< open >}}
+
+### Queue
 
 {{< queue >}}
