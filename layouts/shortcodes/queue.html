@@ -7,21 +7,21 @@
         {{ $free_slots = sub $free_slots $total }}
 
         {{ range $q.queue }}
-        {{if eq .progress -1}} <li>❌ {{ .name }} </li> {{ end }}
-        {{if eq .progress 0}} <li>⏱️️ {{ .name }} </li> {{ end }}
-        {{if eq .progress 1}} <li>🚧 {{ .name }} </li> {{ end }}
-        {{if eq .progress 2}} <li>✅ {{ .name }} </li> {{ end }}
+        {{if eq .progress -1}} <li>❌ Cancelled </li> {{ end }}
+        {{if eq .progress 0}} <li>⏱️️  Waiting </li> {{ end }}
+        {{if eq .progress 1}} <li>🚧 In Progress </li> {{ end }}
+        {{if eq .progress 2}} <li>✅ Completed </li> {{ end }}
         {{ end }}
     {{ end }}
 
     {{ if gt $free_slots 0 }}
     {{ range seq $free_slots }}
-    <li> </li>
+    <li> Open </li>
     {{ end }}
     {{ end }}
 </ol>
 
-<details>
+<!--details>
 <summary>Key</summary>
 <ul>
     <li>✅ = Done</li> 
@@ -29,4 +29,4 @@
     <li>⏱️️ = Waiting</li>
     <li>❌ = Cancelled</li>
 </ul>
-</details>
+</details-->
