@@ -11,23 +11,3 @@ slotcount = 5
 # [[ queue ]]
 # name = "Empty"
 # progress = 0 
-
-[[ queue ]]
-name = ""
-progress = 0 
-
-[[ queue ]]
-name = ""
-progress = 0
-
-[[ queue ]]
-name = ""
-progress = 0
-
-[[ queue ]]
-name = ""
-progress = 0
-
-[[ queue ]]
-name = ""
-progress = 0
