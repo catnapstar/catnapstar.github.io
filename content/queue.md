@@ -1,6 +1,7 @@
 ---
 menu: main
 title: Queue ⏰
+weight: 50
 ---
 
 ### Status

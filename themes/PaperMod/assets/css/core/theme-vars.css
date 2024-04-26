@@ -1,8 +1,8 @@
 :root {
-    --gap: 24px;
+    --gap: 14px;
     --content-gap: 20px;
     --nav-width: 1024px;
-    --main-width: 720px;
+    --main-width: 960px;
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
@@ -35,4 +35,30 @@
 
 .dark.list {
     background: var(--theme);
+}
+
+table {
+    background-color: var(--code-bg);
+}
+
+thead {
+    background-color: var(--tertiary);
+}
+
+/*th {
+    width:100%;
+}
+
+tr {
+    width:100%;
+}*/
+
+table{
+    width:100%;
+}
+table td{
+    white-space: nowrap;
+}
+table td:last-child{
+    width:100%;
 }

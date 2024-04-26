@@ -21,7 +21,3 @@ params:
       url: "https://bsky.app/profile/catnapstar.bsky.social"
     - name: "Itaku"
       url: "https://itaku.ee/profile/catnapstar"
-    - name: "Furaffinity"
-      url: "https://www.furaffinity.net/user/catnapstar"
-    - name: "Mega" 
-      url: "https://mega.nz/folder/gG5jRRST#qJMfYTFfnA-cYOKHq07MAQ"

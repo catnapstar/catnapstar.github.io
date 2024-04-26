@@ -6,6 +6,10 @@
     align-items: center;
     justify-content: center;
     height: 80%;
+    flex-direction: column;
+}
+
+.not-found > div {
     font-size: 160px;
     font-weight: 700;
 }
