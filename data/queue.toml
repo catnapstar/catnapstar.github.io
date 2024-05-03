@@ -1,4 +1,4 @@
-open = true
+open = false
 slotcount = 6
 
 # progress
@@ -26,4 +26,12 @@ progress = 0
 
 [[ queue ]]
 name = "Oscar"
+progress = 0
+
+[[ queue ]]
+name = "Kevvy"
+progress = 0
+
+[[ queue ]]
+name = "FrankG"
 progress = 0
