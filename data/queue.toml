@@ -1,6 +1,6 @@
 open = false
 slotcount = 7
-updated=2024-05-04T14:03:00
+updated=2024-05-04T14:03:00-00:00
 
 # progress
 # -1 cancel
@@ -13,29 +13,22 @@ updated=2024-05-04T14:03:00
 # progress = 0 
 
 [[ queue ]]
-name = "Doman"
 progress = 0
 
 [[ queue ]]
-name = "ColMantis"
 progress = 0
 
 [[ queue ]]
-name = "LewdRang"
 progress = 0
 
 [[ queue ]]
-name = "Oscar"
 progress = 0
 
 [[ queue ]]
-name = "Kevvy"
 progress = 0
 
 [[ queue ]]
-name = "FrankG"
 progress = 0
 
 [[ queue ]]
-name = "Hollow"
 progress = 0
