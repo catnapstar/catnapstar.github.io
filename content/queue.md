@@ -4,9 +4,10 @@ title: Queue ⏰
 weight: 50
 ---
 
-### Queue
+### Status
 {{< queue-status >}}
 
+### Queue
 {{< queue >}}
 
 --- 
