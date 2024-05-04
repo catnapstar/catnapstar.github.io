@@ -1,7 +1,0 @@
-{{$name := .Get 0}}
-{{$price := .Get 1}}
-{{$tier := .Get 2}}
-
-<ul class="tier{{ $tier }}">
-    <font class="tiername">{{ $name }}</font> - <font class="tierprice">{{ if eq $tier 0}}+{{end}}${{ $price }}</font>
-</ul>

@@ -4,10 +4,11 @@ title: Queue ⏰
 weight: 50
 ---
 
-### Status
-
-{{< open >}}
-
 ### Queue
+{{< queue-status >}}
 
 {{< queue >}}
+
+--- 
+
+{{< queue-lastmod >}}

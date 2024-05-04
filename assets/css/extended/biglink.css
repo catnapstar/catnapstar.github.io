@@ -9,10 +9,6 @@
     box-shadow: 0 0px;
 }
 
-.biglink:hover a {
-    bottom: 3px;
-}
-
 #twitter {
     color: #FFFFFF;
     background-color:#1da1f2;

@@ -4,14 +4,13 @@ title: Comms 🗒️
 weight: 10
 ---
 
-{{< vid match="comms/" >}}
 {{< video "/commsheet.mp4" "Commission Sheet" >}}
 
 ---
 
-# 💰 Prices
+# 💰 Prices {#prices}
 
-### Base Price
+### Base Price {#price-base}
 
 | Name              | Price     | Notes     |
 |-------------------|-----------|-----------|
@@ -20,7 +19,7 @@ weight: 10
 | Full              | $60       | Fully colored drawing. Sketch is cleaned up, detailed rendering is applied.
 | Full [Anim]       | $120      | Fully colored animation. Sketch is cleaned up, flats and shading are applied.
 
-### Extra Costs
+### Extra Costs {#price-extra}
 
 *Added onto the base price when applicable.*
 
@@ -34,7 +33,7 @@ weight: 10
 
 ---
 
-# 🔨 Rules & Guidelines
+# 🔨 Rules & Guidelines {#rules}
 You can get a general idea what I'm okay with drawing by looking at my previous works. I'm always open to hearing new ideas, so if you're still unsure about commissioning a specific topic, you can always [send me a message about it!](/misc/#contact) 
 
 However, under any circumstances, I will not allow drawings of:
@@ -43,7 +42,7 @@ However, under any circumstances, I will not allow drawings of:
 
 ---
 
-# Payment Process & Refunds
+# Payment Process & Refunds {#payment}
 
 Payments are handled up-front via PayPal. Before I start working on your commission, we'll discuss your idea and agree on a fair price for it. Afterwards I'll send you an invoice. I won't start working on your piece until the payment is made. You can request a refund for your commission at any point during the process. The total refund amount depends on how much work I've put in so far. For example:
 - Before the commission is started, you will get a full refund.

@@ -3,6 +3,12 @@ languageCode: en-us
 title: Catnap's Art Site
 theme: ["PaperMod", "hugo-shortcode-gallery"]
 
+enableGitInfo: true
+
+frontmatter:
+  date: ["date", "publishDate", "lastmod"]
+  lastmod: ["lastmod", ":git", "date", "publishDate"]
+
 params:
   defaultTheme: dark
   disableThemeToggle: true
