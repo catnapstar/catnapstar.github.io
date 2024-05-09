@@ -1,1 +1,3 @@
-<p><i>Last Updated: {{ .Site.Data.queue.updated | time.Format ":date_medium" }}</p></i>
+{{- $date := .Site.Data.queue.updated -}}
+
+<p><i>Last Updated: {{ $date | time.Format ":date_medium" }}, {{ $date | time.Format ":time_short" }}</p></i>
