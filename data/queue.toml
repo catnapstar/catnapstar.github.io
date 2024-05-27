@@ -1,6 +1,6 @@
 open = false
 slotcount = 7
-updated=2024-05-17T16:00:00-00:00
+updated=2024-05-26T20:57:00-00:00
 
 # progress
 # -1 cancel
@@ -19,7 +19,7 @@ progress = 2
 progress = 1
 
 [[ queue ]]
-progress = 0
+progress = 1
 
 [[ queue ]]
 progress = 0
