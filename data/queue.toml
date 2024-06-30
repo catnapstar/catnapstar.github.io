@@ -31,4 +31,4 @@ progress = 2
 progress = 2
 
 [[ queue ]]
-progress = 0
+progress = -1
