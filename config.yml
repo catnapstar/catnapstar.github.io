@@ -21,5 +21,7 @@ params:
       url: "https://twitter.com/catnapstar"
     - name: "Itaku"
       url: "https://itaku.ee/profile/catnapstar"
+    - name: "Bluesky"
+      url: "https://bsky.app/profile/catnapstar.bsky.social"
     - name: "Patreon"
       url: "https://patreon.com/catnapstar"
