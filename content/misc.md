@@ -16,7 +16,6 @@ weight: 100
 ### More Links
 *Even more places to find my artwork*
 
-{{<fa crow>}} - [Bluesky](https://bsky.app/profile/catnapstar.bsky.social)  
 {{<fa cat>}} - [E621](https://e621.net/posts?tags=catnapstar)  
 {{<fa paw>}} - [Furaffinity](https://www.furaffinity.net/user/catnapstar)   
 {{<fa download>}} - [Mega](https://mega.nz/folder/gG5jRRST#qJMfYTFfnA-cYOKHq07MAQ)
