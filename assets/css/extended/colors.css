@@ -10,6 +10,16 @@
     border: solid 5px var(--tertiary);
 }
 
+input {
+    color: var(--primary);
+    background: var(--secondary);
+}
+
+input[type="button"] {
+    padding: 5px 15px; 
+    border:0 none;
+}
+
 .bl {
     border-radius: 5px;
 }
