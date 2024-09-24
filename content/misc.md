@@ -5,17 +5,14 @@ weight: 100
 ---
 
 ### Contact
-*Get in touch about a commission, or just say hi!*
+*Direct all queries, commissions and comments here:*
 
-{{<fa fab discord>}} - catnapstar on [Discord](https://www.discord.com/)  
-{{<fa comment>}} - Direct message on [Twitter](https://twitter.com/catnapstar) or [Itaku](https://itaku.ee/profile/catnapstar)  
-{{<fa envelope>}} - <catnapstar.art@gmail.com>  
+{{<fa fab discord>}} catnapstar on [Discord](https://www.discord.com/)  
+{{<fa comment>}} DM on [Twitter](https://twitter.com/catnapstar) or [Itaku](https://itaku.ee/profile/catnapstar)  
+{{<fa envelope>}} <catnapstar.art@gmail.com>  
 
----
+### Archives
+*Old areas where I don't post anymore*
 
-### More Links
-*Even more places to find my artwork*
-
-{{<fa cat>}} - [E621](https://e621.net/posts?tags=catnapstar)  
-{{<fa paw>}} - [Furaffinity](https://www.furaffinity.net/user/catnapstar)   
-{{<fa download>}} - [Mega](https://mega.nz/folder/gG5jRRST#qJMfYTFfnA-cYOKHq07MAQ)
+{{<fa paw>}} [Furaffinity](https://www.furaffinity.net/user/catnapstar)   
+{{<fa download>}} [Mega](https://mega.nz/folder/gG5jRRST#qJMfYTFfnA-cYOKHq07MAQ)

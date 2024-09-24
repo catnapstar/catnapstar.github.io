@@ -1,14 +1,12 @@
 ---
 menu: main
-title: Comms 🗒️
+title: Comms
 weight: 10
 ---
 
 {{< video "/commsheet.mp4" "Commission Sheet" >}}
 
----
-
-# 💰 Prices {#prices}
+### 💰 Prices
 | Tier | Name              | Price     | Description |
 |------|-------------------|-----------|-------------|
 | 1    | Sketch            | $40       | Uncolored drawing. Rough, sketchy lines.
@@ -19,13 +17,10 @@ weight: 10
 
 *Tier prices are rough estimates. Depending on the complexity of the piece, the price may increase or decrease.*
 
-### Limits
 - Max characters allowed in a single piece: 3
 - Animations are limited to a single loop. Additional variations to the loop will increase the price.
 
----
-
-# 🔨 Will / Won't Draw {#rules}
+### 🔨 Rules
 
 You can get a general idea what I'm okay with drawing by looking at my previous works. I'm always open to hearing new ideas, so if you're still unsure about commissioning a specific topic, you can always [send me a message about it!](/misc/#contact) 
 
@@ -33,9 +28,7 @@ However, I will never accept commissions of the following topics:
 - ❌ Anything illegal {{< spoiler txt="(Underaged Characters, Feral, Gore, etc.)" >}}
 - ❌ Depictions of real people, or their personal OCs, without their consent.
 
----
-
-# Payment Process & Refunds {#payment}
+### 🤝 Payment Process & Refunds
 
 Payments are handled up-front via PayPal. Before I start working on your commission, we'll discuss your idea and agree on a fair price for it. Afterwards I'll send you an invoice. I won't start working on your piece until the payment is made. 
 

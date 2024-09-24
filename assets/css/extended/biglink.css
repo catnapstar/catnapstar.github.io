@@ -9,28 +9,28 @@
     box-shadow: 0 0px;
 }
 
-#twitter {
-    color: #FFFFFF;
-    background-color:#1da1f2;
+#bl-twitter {
+    /*color: #FFFFFF;*/
+    color:#1da1f2;
 }
-#itaku {
+#bl-itaku {
     color: #000000;
     background-color:#ffdd00;
 }
-#bluesky {
+#bl-bluesky {
     color: #FFFFFF;
     background-color:#0c48a8;
 }
-#furaffinity {
+#bl-furaffinity {
     color: #FFFFFF;
     background-color:#F45800;
 }
-#mega {
+#bl-mega {
     color: #FFFFFF;
     background-color:#D51007;
 }
 
-#patreon {
+#bl-patreon {
     color: #FFFFFF;
     background-color:#dc7d01;
 }

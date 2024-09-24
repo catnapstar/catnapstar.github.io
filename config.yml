@@ -1,27 +1,38 @@
 baseURL: /
 languageCode: en-us
+defaultContentLanguage: "none"
 title: Catnap's Art Site
-theme: ["PaperMod", "hugo-shortcode-gallery"]
+#theme: ["PaperMod", "hugo-shortcode-gallery"]
+theme: ["hugo-PaperMod", "hugo-shortcode-gallery"]
 
 enableGitInfo: true
 
 params:
+  assets:
+    theme_color: "#102145"
   defaultTheme: dark
   disableThemeToggle: true
-  ShowBreadCrumbs: true
+  disableAnchoredHeadings: true
+  ShowBreadCrumbs: false
+  disablePostHeader: true
+  socialIconsUseText: true
   profileMode:
     enabled: true
     title: "<Title>"
-    subtitle: "Hi! I'm catnap, an NSFW artist, animator and lewd dude doodler."
+    subtitle: "Hi! I'm catnap, an NSFW artist, animator and programmer. Check out my stuff below!"
     imageUrl: "/avatar.png"
     imageTitle: "Catnapstar"
+    imageWidth: 200
+    imageHeight: 200
 
   socialIcons:
     - name: "Twitter"
       url: "https://twitter.com/catnapstar"
-    - name: "Itaku"
-      url: "https://itaku.ee/profile/catnapstar"
     - name: "Bluesky"
       url: "https://bsky.app/profile/catnapstar.bsky.social"
+    - name: "Itaku"
+      url: "https://itaku.ee/profile/catnapstar"
+    - name: "e621"
+      url: "https://e621.net/posts?tags=catnapstar"
     - name: "Patreon"
       url: "https://patreon.com/catnapstar"

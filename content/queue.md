@@ -1,6 +1,6 @@
 ---
 menu: main
-title: Queue ⏰
+title: Queue
 weight: 50
 ---
 
@@ -9,7 +9,5 @@ weight: 50
 
 ### Queue
 {{< queue >}}
-
---- 
 
 {{< queue-lastmod >}}

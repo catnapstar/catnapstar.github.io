@@ -1,9 +1,63 @@
 .dark {
-    --theme: rgb(21, 31, 53);
-    --tertiary: rgb(63, 79, 113);
+    --theme: rgb(21, 24, 29);
+    --primary: rgb(235, 237, 241);
+    --secondary: rgb(89, 98, 118);
+    --tertiary: rgb(85, 113, 173);
 }
 
 .profile img {
+    border-radius: 10px;
+    border: solid 5px var(--tertiary);
+}
+
+.bl {
     border-radius: 5px;
-    border: solid 2px var(--secondary);
+}
+
+.social-icons a svg {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.social-icons a {
+    margin: 5px;
+}
+
+.bl-twitter {
+    color: #FFFFFF;
+    background-color:#1da1f2;
+}
+
+.bl-discord {
+    color: #FFFFFF;
+    background-color:#115ef0;
+}
+
+.bl-itaku {
+    color: #000000;
+    background-color:#ffdd00;
+}
+.bl-bluesky {
+    color: #FFFFFF;
+    background-color:#0c48a8;
+}
+
+.bl-e621 {
+    color: #ffffff;
+    background-color: rgb(1, 46, 87);
+}
+
+.bl-furaffinity {
+    color: #FFFFFF;
+    background-color:#353b45;
+}
+.bl-mega {
+    color: #FFFFFF;
+    background-color:#D51007;
+}
+
+.bl-patreon {
+    color: #FFFFFF;
+    background-color:#dc7d01;
 }
