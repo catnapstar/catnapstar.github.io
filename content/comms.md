@@ -1,6 +1,6 @@
 ---
 menu: main
-title: Comms
+title: Commissions
 weight: 10
 ---
 

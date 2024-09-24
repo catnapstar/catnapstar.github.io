@@ -4,7 +4,9 @@
   {{ $faStylePrefix = (.Get 0) }}
 {{ end }}
 
-<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }} fa-fw">
+{{ $faColor := .Get 2 }}
+
+<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }} fa-fw" style="color:{{$faColor}}">
   <!-- Load font awesome only once per page, load it inside the <i> element
     so it does not disturb the text flow (like removing spaces) -->
   {{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
