@@ -19,7 +19,7 @@
 
 {{ $margins := .Get "margins" | default (.Site.Params.galleryRowMargins | default 10) }}
 
-{{ $randomize := .Get "randomize" | default (.Site.Params.galleryRandomize | default false) }}
+{{ $randomize := .Get "randomize" | default (.Site.Params.galleryRandomize | default true) }}
 
 {{ $thumbnailResizeOptions := .Get "thumbnailResizeOptions" | default (.Site.Params.galleryThumbnailResizeOptions | default "600x600 q90 Lanczos") }}
 

@@ -1,7 +1,7 @@
 .dark {
     --theme: rgb(21, 24, 29);
     --primary: rgb(235, 237, 241);
-    --secondary: rgb(89, 98, 118);
+    --secondary: rgb(55, 61, 74);
     --tertiary: rgb(85, 113, 173);
 }
 
@@ -70,4 +70,17 @@ input[type="button"] {
 .bl-patreon {
     color: #FFFFFF;
     background-color:#dc7d01;
+}
+
+table {
+    display: table;
+}
+
+td {
+    /*border: 2px solid var(--tertiary);*/
+    background-color: var(--secondary);
+}
+
+thead {
+    background-color: var(--tertiary);
 }

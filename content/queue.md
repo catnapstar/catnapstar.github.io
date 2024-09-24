@@ -4,10 +4,10 @@ title: Queue
 weight: 50
 ---
 
-### Status
+## Status
 {{< queue-status >}}
 
-### Queue
+## Queue
 {{< queue >}}
 
 {{< queue-lastmod >}}
