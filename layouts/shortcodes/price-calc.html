@@ -25,21 +25,21 @@
     </div>
 
     <h4 class="form-label">Extras</h4>
-    <!--div class="row">
+    <div class="row">
         <div class="col">
             <input type="checkbox" class="param btn-check" id="extra-bg" autocomplete="off">
-            <label class="btn btn-outline-success" for="extra-bg">Simple Background</label>
-            <label class="form-label" id="extra-bg-price" for="extra-bg">-$30</label>
+            <label class="btn btn-outline-danger" for="extra-bg">Detailed Background</label>
+            <label class="form-label" id="extra-bg-price" for="extra-bg">+$20</label>
         </div>
     </div>
 
-    <br-->
+    <br>
 
     <div class="row">
         <div class="col">
             <input type="checkbox" class="param btn-check" id="extra-refsheet" autocomplete="off">
             <label class="btn btn-outline-danger" for="extra-refsheet">Character Ref Sheet</label>
-            <label class="form-label" for="extra-bg">+$30</label>
+            <label class="form-label" for="extra-refsheet">+$30</label>
         </div>
     </div>
 
@@ -133,10 +133,10 @@
         let total_half = total/2
 
         // Special condition disables
-        //$("#extra-bg").prop("disabled", tier == "sketch" || tier == "flatcolor")
+        $("#extra-bg").prop("disabled", tier == "sketch" || tier == "flatcolor")
         $("#extra-refsheet").prop("disabled", base == "anim")
 
-        //let is_simple_background = $("#extra-bg").is(':checked')
+        let is_detail_bg = $("#extra-bg").is(':checked')
         let is_refsheet = $("#extra-refsheet").is(':checked')
 
         //$("#extra-chars").prop("disabled", is_refsheet)
@@ -154,7 +154,7 @@
         total += (total/2)*extra_scenes
 
         if(is_refsheet) total += 30
-        //if(is_simple_background) total -= 30
+        if(is_detail_bg) total += 20
 
         $("#total").text("Total Price: $" + total)
     }
