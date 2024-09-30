@@ -14,6 +14,7 @@ weight: 10
 ### Extra Costs
 |                                | Price                  |
 |--------------------------------|------------------------|
+| Detailed Background            | __$20__                |
 | Character Ref Sheet            | __$30__                |
 | Per. Extra Animation Scene     | __$(Base/2)__          |
 
