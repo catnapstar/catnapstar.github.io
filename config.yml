@@ -19,7 +19,7 @@ params:
   profileMode:
     enabled: true
     title: "<Title>"
-    subtitle: "Hi! I'm catnap, an NSFW artist, animator and programmer. Check out my stuff below!"
+    subtitle: "Hi! I'm catnap, an NSFW artist & animator. Check out my stuff below!"
     imageUrl: "/avatar.png"
     imageTitle: "Catnapstar"
     imageWidth: 200
