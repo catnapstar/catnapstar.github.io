@@ -8,3 +8,15 @@ video {
     height: 100%;
     border-radius: 5px;
 }
+
+.queue {
+    width: 25%;
+}
+
+.queue > li{
+    padding: 5px;
+}
+
+.queue > li > div{
+    height: 100%;
+}

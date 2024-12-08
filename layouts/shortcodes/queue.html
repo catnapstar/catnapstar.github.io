@@ -1,4 +1,4 @@
-<ol>
+<ol class="queue">
     {{ $q := $.Site.Data.queue }}
     {{ $free_slots := $q.slotcount }}
 
@@ -7,10 +7,22 @@
         {{ $free_slots = sub $free_slots $total }}
 
         {{ range $q.queue }}
-        {{if eq .progress -1}} <li>❌ Cancelled </li> {{ end }}
-        {{if eq .progress 0}} <li>⏱️️  Waiting </li> {{ end }}
-        {{if eq .progress 1}} <li>🚧 In Progress </li> {{ end }}
-        {{if eq .progress 2}} <li>✅ Completed </li> {{ end }}
+            <li>
+                <div>
+                    {{if eq .progress -1}} ❌ Cancelled {{ end }}
+                    {{if eq .progress 0}} ⏱️️  Waiting {{ end }}
+                    {{if eq .progress 1}} 🚧 In Progress {{ end }}
+                    {{if eq .progress 2}} ✅ Completed {{ end }}
+                </div>
+                {{ if (isset . "percent") }}
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: {{.percent}}%" aria-valuenow="{{.percent}}" aria-valuemin="0" aria-valuemax="100">{{.percent}}%</div>
+                    </div>
+                {{ else }}
+                    <div></div> 
+                    <div></div>
+                {{ end }}
+            </li>
         {{ end }}
     {{ end }}
 

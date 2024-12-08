@@ -1,5 +1,5 @@
 open = false
-slotcount = 4
+slotcount = 2
 
 # progress
 # -1 cancel
@@ -10,15 +10,11 @@ slotcount = 4
 # [[ queue ]]
 # name = "Empty"
 # progress = 0 
+# percent = 50
 
 [[ queue ]]
 progress = 2
 
 [[ queue ]]
 progress = 1
-
-[[ queue ]]
-progress = 0
-
-[[ queue ]]
-progress = 0
+percent = 25
