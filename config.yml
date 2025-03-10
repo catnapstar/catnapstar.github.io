@@ -6,6 +6,18 @@ title: Catnap's Art Site
 theme: ["hugo-PaperMod", "hugo-shortcode-gallery"]
 
 enableGitInfo: true
+  
+frontmatter:
+  date: 
+    - "lastmod"
+    - "publishDate"
+    - "date"
+    - ":git"
+  lastmod:
+    - "lastmod"
+    - "date"
+    - "publishDate"
+    - ":git"
 
 params:
   assets:
@@ -30,8 +42,6 @@ params:
       url: "https://twitter.com/catnapstar"
     - name: "Bluesky"
       url: "https://bsky.app/profile/catnapstar.bsky.social"
-    - name: "Itaku"
-      url: "https://itaku.ee/profile/catnapstar"
     - name: "e621"
       url: "https://e621.net/posts?tags=catnapstar"
     - name: "Patreon"

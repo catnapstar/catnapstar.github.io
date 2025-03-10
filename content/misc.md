@@ -8,6 +8,7 @@ weight: 100
 *Old areas where I don't post anymore*  
 
 🦊 [Furaffinity](https://www.furaffinity.net/user/catnapstar)   
+🪶 [Itaku]("https://itaku.ee/profile/catnapstar")    
 💾️ [MEGA Archive](https://mega.nz/folder/gG5jRRST#qJMfYTFfnA-cYOKHq07MAQ)
 
 

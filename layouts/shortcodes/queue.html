@@ -18,6 +18,15 @@
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: {{.percent}}%" aria-valuenow="{{.percent}}" aria-valuemin="0" aria-valuemax="100">{{.percent}}%</div>
                     </div>
+                {{ else if (isset . "scene_done") }}
+                    <div class="progress">
+			{{$n1 := mul .scene_done 100.0}}
+			{{$n2 := mul .scene_total 100.0}}
+			{{$perc := mul (div $n1 $n2) 100.0}}
+			<div class="progress-bar" role="progressbar" style="width: {{$perc}}%" aria-valuenow="{{.scene_done}}" aria-valuemin="0" aria-valuemax="{{.scene_total}}">
+			    Scene: {{.scene_done}}/{{.scene_total}}
+			</div>
+                    </div>
                 {{ else }}
                     <div></div> 
                     <div></div>
