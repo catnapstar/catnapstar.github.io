@@ -1,6 +1,6 @@
 open = false
 slotcount = 2
-last_update = 2025-03-09
+last_update = 2025-04-02
 
 # progress
 # -1 cancel
@@ -17,6 +17,6 @@ last_update = 2025-03-09
 progress = 2
 
 [[ queue ]]
-progress = 1
-scene_done = 8
-scene_total = 9 
+progress = 2
+scene_done = 10
+scene_total = 10 
