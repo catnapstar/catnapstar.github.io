@@ -1,3 +1,4 @@
+{{ if $.Site.Data.queue.open }}
 <ol class="queue">
     {{ $q := $.Site.Data.queue }}
     {{ $free_slots := $q.slotcount }}
@@ -41,3 +42,4 @@
     {{ end }}
     {{ end }}
 </ol>
+{{ end }}
