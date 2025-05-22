@@ -1,5 +1,5 @@
 open = false
-slotcount = 2
+slotcount = 5
 last_update = 2025-04-02
 
 # progress
@@ -12,11 +12,3 @@ last_update = 2025-04-02
 # name = "Empty"
 # progress = 0 
 # percent = 50
-
-[[ queue ]]
-progress = 2
-
-[[ queue ]]
-progress = 2
-scene_done = 10
-scene_total = 10 
