@@ -1,0 +1,7 @@
+.dark.list {
+    background: url(/bg.png) repeat center center fixed;
+}
+
+body.dark {
+    background: url(/bg.png) repeat center center fixed;
+}
