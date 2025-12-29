@@ -55,4 +55,4 @@ I will never accept commissions of the following topics:
 Once I’ve finished your commission, it’s yours to keep and do whatever you want with! Go crazy!
 
 ## Submission
-You can submit a commission request using the google form [here]("https://forms.gle/TFVZLMgeXUNgZcWJ9"). Before submitting a request, make sure to confirm that my commissions are open on the [queue](/queue) page!
+You can submit a commission request using the google form [here](https://forms.gle/TFVZLMgeXUNgZcWJ9). Before submitting a request, make sure to confirm that my commissions are open on the [queue](/queue) page!
