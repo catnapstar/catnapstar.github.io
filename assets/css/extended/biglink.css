@@ -1,0 +1,37 @@
+.biglink {
+    cursor:pointer;
+    display: inline-block;
+    margin: 2px;
+    text-align:center;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.25s;
+    box-shadow: 0 0px;
+}
+
+#bl-twitter {
+    /*color: #FFFFFF;*/
+    color:#1da1f2;
+}
+#bl-itaku {
+    color: #000000;
+    background-color:#ffdd00;
+}
+#bl-bluesky {
+    color: #FFFFFF;
+    background-color:#0c48a8;
+}
+#bl-furaffinity {
+    color: #FFFFFF;
+    background-color:#F45800;
+}
+#bl-mega {
+    color: #FFFFFF;
+    background-color:#D51007;
+}
+
+#bl-patreon {
+    color: #FFFFFF;
+    background-color:#dc7d01;
+}
+

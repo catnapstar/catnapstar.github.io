@@ -1,0 +1,4 @@
+{{ $q := $.Site.Data.queue }}
+{{- $date := $q.last_update -}}
+
+<p><i>Last Updated: {{ $date | time.Format ":date_medium" }}</p></i>

@@ -1,0 +1,169 @@
+<div>
+    <h4 class="form-label">Commission Type</h4>
+    <div class="row">
+        <div class="col">
+            <input class="param btn-check" type="radio" name="base" value="draw" id="base1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="base1"> Drawing </label>
+            <input class="param btn-check" type="radio" name="base" value="anim" id="base2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="base2"> Animation </label>
+        </div>
+    </div>
+
+    <h4 class="form-label">Rendering</h4>
+    <div class="row">
+        <div class="col">
+            <input class="param btn-check" type="radio" name="tier" value="sketch" id="tier1" autocomplete="off">
+            <label class="btn btn-outline-success" for="tier1"> Sketch </label>
+            <label class="form-label" id="tier1-price" for="tier1"></label>
+            <input class="param btn-check" type="radio" name="tier" value="flatcolor" id="tier2" autocomplete="off">
+            <label class="btn btn-outline-success" for="tier2"> Flat Color </label>
+            <label class="form-label"  id="tier2-price" for="tier2"></label>
+            <input class="param btn-check" type="radio" name="tier" value="fullcolor" id="tier3" autocomplete="off">
+            <label class="btn btn-outline-success" for="tier3"> Full Color </label>
+            <label class="form-label"  id="tier3-price" for="tier3"></label>
+        </div>
+    </div>
+
+    <h4 class="form-label">Extras</h4>
+    <div class="row">
+        <div class="col">
+            <input type="checkbox" class="param btn-check" id="extra-bg" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="extra-bg">Detailed Background</label>
+            <label class="form-label" id="extra-bg-price" for="extra-bg">+$20</label>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col">
+            <input type="checkbox" class="param btn-check" id="extra-refsheet" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="extra-refsheet">Character Ref Sheet</label>
+            <label class="form-label" for="extra-refsheet">+$30</label>
+        </div>
+    </div>
+
+    <br>
+
+    <!--div class="row">
+        <div class="col-auto">
+            <label class="col-form-label" for="extra-chars">Extra Characters</label>
+        </div>
+        <div class="col-auto">
+            <input type="range" class="param form-range" min="0" max="3" id="extra-chars" value="0" autocomplete="off">
+        </div>
+        <div class="col-auto">
+            <label id="extra-chars-count">0</label>
+        </div>
+    </div-->
+
+    <div class="row">
+        <div class="col-auto">
+            <label class="col-form-label" for="extra-scenes">Extra Animation Scenes</label>
+        </div>
+        <div class="col-auto">
+            <input type="range" class="param form-range" min="0" max="3" id="extra-scenes" value="0" autocomplete="off">
+        </div>
+        <div class="col-auto">
+            <label id="extra-scenes-count"></label>
+        </div>
+    </div>
+
+    <h3 id="total">Total Price:</h3>
+</div>
+
+<script>
+    jQuery.propHooks.disabled = {
+        set: function (el, value) {
+            if (el.disabled !== value) {
+                el.disabled = value;
+                value && $(el).trigger('disabledSet');
+                !value && $(el).trigger('enabledSet');
+            }
+        }
+    };
+
+    let tier_price = {
+        draw:{
+            sketch: 40,
+            flatcolor: 55,
+            fullcolor: 70,
+        },
+        anim:{
+            sketch: 60,
+            flatcolor: 80,
+            fullcolor: 130,
+        }
+    }
+
+
+    function calculateTotal() {
+        let total = 0
+        let base = ""
+        let tier = ""
+
+        if($("#base1").is(':checked'))
+            base = $("#base1").attr("value")
+
+        if($("#base2").is(':checked'))
+            base = $("#base2").attr("value")
+
+        if($("#tier1").is(':checked'))
+            tier = $("#tier1").attr("value")
+
+        if($("#tier2").is(':checked'))
+            tier = $("#tier2").attr("value")
+
+        if($("#tier3").is(':checked'))
+            tier = $("#tier3").attr("value")
+
+        if(!base)
+            return
+
+        let prices = tier_price[base]
+
+        $("#tier1-price").text("$" + prices["sketch"])
+        $("#tier2-price").text("$" + prices["flatcolor"])
+        $("#tier3-price").text("$" + prices["fullcolor"])
+
+        if(!tier)
+            return
+
+        total = prices[tier]
+        let total_half = total/2
+
+        // Special condition disables
+        $("#extra-bg").prop("disabled", tier == "sketch" || tier == "flatcolor")
+        $("#extra-refsheet").prop("disabled", base == "anim")
+
+        let is_detail_bg = $("#extra-bg").is(':checked')
+        let is_refsheet = $("#extra-refsheet").is(':checked')
+
+        //$("#extra-chars").prop("disabled", is_refsheet)
+        $("#extra-scenes").prop("disabled", base == "draw")
+
+        //let extra_chars = $("#extra-chars").val()
+        let extra_scenes = $("#extra-scenes").val()
+
+        // Update range value indicators
+        //$("#extra-chars-count").text("+" + extra_chars + " x $" + total_half)
+        $("#extra-scenes-count").text("+" + extra_scenes + " x $" + total_half)
+
+        // Extra multipliers
+        //total += (total/2)*extra_chars
+        total += (total/2)*extra_scenes
+
+        if(is_refsheet) total += 30
+        if(is_detail_bg) total += 20
+
+        $("#total").text("Total Price: $" + total)
+    }
+
+    $(function () {
+        $(".param").on("change keyup", calculateTotal)
+        $(".param").on("disabledSet", function(){
+            $(this).prop("value", 0)
+            $(this).prop("checked", false)
+        })
+    })
+</script>

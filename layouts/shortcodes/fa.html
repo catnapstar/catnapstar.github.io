@@ -1,0 +1,16 @@
+<!-- use default fontawesome class 'fas' or use a specified one like 'fab' for brands-->
+{{ $faStylePrefix := "fas" }}
+{{ if in (slice "fas" "far" "fal" "fad" "fab") (.Get 0) }}
+  {{ $faStylePrefix = (.Get 0) }}
+{{ end }}
+
+{{ $faColor := .Get 2 }}
+
+<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }} fa-fw" style="color:{{$faColor}}">
+  <!-- Load font awesome only once per page, load it inside the <i> element
+    so it does not disturb the text flow (like removing spaces) -->
+  {{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
+    {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  {{ end }}
+</i>
