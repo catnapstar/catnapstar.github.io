@@ -29,8 +29,6 @@ Animations come with additional options. Adding extra scenes multiplies the base
 | 💦 Cumshot Alt                 | $25                |
 | 🌳 Detailed Background         | $25                |
 
----
-
 ## 🔨 Rules
 ### Payments
 
@@ -54,5 +52,5 @@ I will never accept commissions of the following topics:
 ### Ownership
 Once I’ve finished your commission, it’s yours to keep and do whatever you want with! Go crazy!
 
-## Submission
-You can submit a commission request using the google form [here](https://forms.gle/TFVZLMgeXUNgZcWJ9). Before submitting a request, make sure to confirm that my commissions are open on the [queue](/queue) page!
+## ✉️ Submission
+You can submit a commission request using the google form [here](https://forms.gle/TFVZLMgeXUNgZcWJ9). You can also take a look at the [queue](https://docs.google.com/spreadsheets/d/1JsW_6oEMPEIVq1XImE-0oqrz3S4YNgupR4CZr8UDk_4/edit?gid=0#gid=0) page to see my current progress!
