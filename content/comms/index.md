@@ -5,14 +5,14 @@ weight: 10
 ---
 
 ## 💲Prices
-These are the base prices for each commission format. Check out [this folder](https://drive.google.com/drive/folders/1FSiPuZslX75DFRugdMMJDjYEij5Vj70Q?usp=drive_link) or the [gallery](/gallery) for examples.
+Check out [this folder](https://drive.google.com/drive/folders/1FSiPuZslX75DFRugdMMJDjYEij5Vj70Q?usp=drive_link) for examples of each format.
 | Format          | Rendering     | Base Price     |
 |-----------------|---------------|----------------|
-| 🎨 Painting     | Sketch        | $45            |
-| 🎨 Painting     | Full Color    | $60            |
 | 🎬 Animation    | Sketch        | $60            |
 | 🎬 Animation    | Flat Color    | $80            |
 | 🎬 Animation    | Full Color    | $125           | 
+| 🎨 Painting     | Sketch        | $45            |
+| 🎨 Painting     | Full Color    | $60            |
 | 📃 Ref Sheet    | Sketch        | $40            |
 | 📃 Ref Sheet    | Full Color    | $80            |
 
